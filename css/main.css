@@ -515,3 +515,22 @@ h1, h2, h3, h4, h5, h6 {
 #under-line {
     line-height: 25px;
 }
+
+.signup-btn {
+    display: flex;
+    margin: auto;
+    width: 205px;
+}
+
+.sign-up {
+    border: 1px solid #4CB649;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4CB649;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 61px;
+    padding-bottom: 10px;
+    padding-left: 61px;
+}
