@@ -114,27 +114,36 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 220px;
 }
 
-.btns button {
+.btns a {
+    padding-top: 10px;
+    text-align: center;
     text-transform: uppercase;
     border: solid 1px #4CB649;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 500;
     border-radius: 40px;
-    height: 40px;
+    height: 25px;
 }
 
 .login {
     background: #fff;
     width: 90px;
+    color: #4CB649;
 }
 
 .get {
+    color: #4CB649;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.login:hover,
+.get:hover,
+.sign-up:hover {
     background: rgb(76,182,73);
     background: linear-gradient(0deg, rgba(76,182,73,1) 0%, rgba(92,221,89,1) 100%);
     color: #fff;
-    width: 160px;
-    margin-left: 10px;
 }
 
 .wrapper {
@@ -533,4 +542,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 61px;
     padding-bottom: 10px;
     padding-left: 61px;
+}
+
+.pay-way {
+    width: 915px;
+    margin: 0;
+    display: flex;
 }
