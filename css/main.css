@@ -568,6 +568,15 @@ h1, h2, h3, h4, h5, h6 {
     height: 75px;
 }
 
+.deal {
+    display: flex;
+    position: relative;
+    top: -68px;
+    left: 315px;
+    width: 80px;
+    height: 80px;
+}
+
 #currency,
 #period {
     color: #22252E;

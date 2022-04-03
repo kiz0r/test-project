@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.98" height="97.98" viewBox="0 0 97.98 97.98">
+  <g id="button" transform="matrix(0.966, 0.259, -0.259, 0.966, 20.706, 0)">
+    <g id="card-bg">
+      <g id="card-bg-2" data-name="card-bg" fill="#4cb649" stroke="#037900" stroke-miterlimit="10" stroke-width="5">
+        <rect width="80" height="80" rx="40" stroke="none"/>
+        <rect x="2.5" y="2.5" width="75" height="75" rx="37.5" fill="none"/>
+      </g>
+      <g id="card-bg-3" data-name="card-bg" fill="none" stroke="#1ca618" stroke-miterlimit="10" stroke-width="4">
+        <rect width="80" height="80" rx="40" stroke="none"/>
+        <rect x="2" y="2" width="76" height="76" rx="38" fill="none"/>
+      </g>
+    </g>
+    <text id="BEST_DEAL" data-name="BEST DEAL" transform="translate(40 40)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI" letter-spacing="0.057em"><tspan x="-16.14" y="0">BEST</tspan><tspan x="-19.777" y="18" xml:space="preserve"> DEAL</tspan></text>
+  </g>
+</svg>
