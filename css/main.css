@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
 }
 
-.special-container {
+.specialContainer {
     display: flex;
 }
 
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #22252E;
 }
 
-.wn-wrapp {
+.warningWrapper {
     margin: 0 auto;
     width: 611px;
     display: inline-flex;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 22px;
 }
 
-.nav-list {
+.navigationList {
     display: flex;
     list-style: none;
     padding-top: 40px;
@@ -154,15 +154,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .login,
 .get,
-.sign-up, 
-.left-section-btn {
+.signUp, 
+.leftSection-button {
     transition: all 0.5s ease;
 }
 
 .login:hover,
 .get:hover,
-.sign-up:hover,
-.left-section-btn:hover {
+.signUp:hover,
+.leftSection-button:hover {
     color: #fff;    
     background: rgb(76,182,73);
     background: linear-gradient(0deg, rgba(76,182,73,1) 0%, rgba(92,221,89,1) 100%);
@@ -182,14 +182,14 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom-left-radius: 10px;
 }
 
-.content-wrapper {
+.contentWrapper {
     margin-right: 60px;
     margin-top: 60px;
     margin-left: 60px;
     margin-bottom: 41px;
 }
 
-.content-wrapper h4 {    
+.contentWrapper h4 {    
     margin-bottom: 87px;
     font-weight: 300;
     color: #22252E;
@@ -210,13 +210,6 @@ h1, h2, h3, h4, h5, h6 {
 #date {
     color: #889099;
     text-transform: uppercase;
-}
-
-.copyright {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-    color: #4CB649;
 }
 
 .comments {
@@ -245,28 +238,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 15px;
 }
 
-.directly-tags {
+.directlyTags {
     display: flex;
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.directly-tags h4 {
+.directlyTags h4 {
     font-weight: 500;
     color: #323642;
     font-size: 14px;
     margin-top: 9px;
 }
 
-.directly-tags ul {
+.directlyTags ul {
     margin-top: 10px;
     display: flex;
     list-style: none;
 }
 
-.directly-tags ul li {
+.directlyTags ul li {
     margin-right: 25px;
-    
 }
 
 .tag {
@@ -277,12 +269,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
 
-.tag-buttons {
+.tagButtons {
     display: flex;
     margin-left: auto;
 }
 
-.tag-buttons a {
+.tagButtons a {
     margin-top: 10px;
     color: #323642;
     text-transform: uppercase;
@@ -293,12 +285,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 40px;
 }
 
-.main-content {
+.mainContent {
     display: flex;
     justify-content: space-between;
 }
 
-.left-section {
+.leftSection {
     margin-right: auto;
     width: 720px;
 }
@@ -315,19 +307,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
 }
 
-.gallery-wrapper {
+.galleryWrapper {
     margin-left: 40px;
 }
 
-.gallery-wrapper h4 {
+.galleryWrapper h4 {
     font-weight: 300;
     font-size: 24px;
     margin-top: 0;
 }
 
-.gallery-cop,
-.gallery-auth,
-.gallery-wrapper h4 {
+.galleryAuthor,
+.galleryWrapper h4 {
     margin-bottom: 10px;
     margin-top: 0;
 }
@@ -350,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-.left-section-btn {
+.leftSection-button {
     width: 100px;
     display: flex;
     margin-right: auto;
@@ -368,14 +359,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-.right-section {
+.rightSection {
     width: 380px;
     border-left: 1px solid #EBECED;
     margin-left: auto;
     padding-left: 40px;
 }
 
-.scrollbar-header {
+.scrollbarHeader {
     display: flex;
     height: 60px;
     width: 340px;
@@ -386,24 +377,23 @@ h1, h2, h3, h4, h5, h6 {
 .loupe {
     margin-left: 20px;
     margin-top: 17px;
-
     width: 18px;
     height: 18px;
 }
 
-.scrollbar-caption {
+.scrollbarCaption {
     padding-left: 20px;
     margin-top: 17px;
     font-size: 18px !important;
     line-height: 24px;
 }
 
-.scrollbar-content {
+.scrollbarContent {
     padding-left: auto;
     width: 340px;
 }
 
-.scrollbar-content h4 {
+.scrollbarContent h4 {
     font-size: 24px;
     font-weight: 300;
 }
@@ -413,14 +403,14 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #EBECED;
 }
 
-.part-caption {
+.partCaption {
     padding-top: 20px;
     height: 40px;
     background: url('../img/bell.svg') no-repeat left center;
     text-align: center;
 }
 
-.scrollbar-list li {
+.scrollbarList li {
     color: #4CB649;
     margin-bottom: 20px;
 }
@@ -429,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 32px;
 }
 
-.scrollbar-list li span {
+.scrollbarList li span {
     color: #323642;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -440,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
     background: url('../img/wi-fi.svg') no-repeat left center;
 }
 
-.big-brother {
+.bigBrother {
     margin-top: 32px;
 }
 
@@ -604,7 +594,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 25px;
 }
 
-.signup-btn {
+.signupBtn {
     display: flex;
     margin: auto;
     width: 205px;
@@ -614,7 +604,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
 }
 
-.sign-up {
+.signUp {
     border: 1px solid #4CB649;
     border-radius: 50px;
     font-weight: 500;
@@ -627,7 +617,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 61px;
 }
 
-.pay-way {
+.payWay {
     display: flex;
     margin: auto;
     width: 970px;
@@ -636,7 +626,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
 }
 
-.pay-way h5 {
+.payWay h5 {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 45px;
@@ -644,12 +634,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
-.payment-systems {
+.paymentSystems {
     display: flex;
     list-style: none;
 }
 
-.payment-systems li a {
+.paymentSystems li a {
     margin-left: 20px;
 }
 
@@ -709,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-.left-container {
+.leftContainer {
     display: flex;
 }
 
