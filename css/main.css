@@ -6,7 +6,7 @@ body {
 a, 
 p {
     text-decoration: none;
-    color: #fff;
+    color: #323642;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -15,6 +15,8 @@ p {
 /* Setting Font To All Headers */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #323642;
 }
 
 /* Setting Size And Centre Alignment */
@@ -294,6 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 .mainContent {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 75px;
 }
 
 .leftSection {
@@ -301,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 720px;
 }
 
-.main h3 {
+.leftSection h3 {
     font-weight: 300;
     font-size: 32px;
     color: #22252E;
@@ -319,16 +322,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 40px;
 }
 
-.galleryWrapper h4 {
+.articleName {
+    color: #323642;
     font-weight: 300;
     font-size: 24px;
-    margin-top: 0;
 }
 
-.galleryAuthor,
-.galleryWrapper h4 {
-    margin-bottom: 10px;
-    margin-top: 0;
+.galleryAuthor {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.articleAuthor {
+    color: #323642;
+    font-weight: 400;
+    font-size: 14px;    
 }
 
 .line {
@@ -438,9 +446,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Tag Cloud Design (Begin) */
+#cloud-caption {
+    margin-top: 31px;
+    margin-bottom: 17px;
+}
+
 .tagCloud {
     width: 324px;
-    text-align: justify;
+    text-align: justiЫfy;
 }
 
 .tagCloud a {
@@ -672,14 +685,14 @@ h1, h2, h3, h4, h5, h6 {
 .readmore {
     margin-top: 15px;
     display: flex;
-    width: 500px;
+    width: 400px;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 55px;
 }
 
 .more {
-    margin-left: 35px;
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
