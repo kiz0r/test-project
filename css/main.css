@@ -606,3 +606,41 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(90deg);
     margin-left: 15px;
 }
+
+.footer {
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.footer h5 {
+    text-transform: uppercase;
+    color: #323642;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info-box {
+    display: flex;
+}
+
+#info-links {
+    padding: 0;
+    list-style: none;
+}
+
+#info-links li {
+    margin-top: 7px;
+}
+
+#info-links li a {
+    font-size: 14px;
+    color: #889099;
+}
+
+.info-content {
+    width: 275px;
+}
