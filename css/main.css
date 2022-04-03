@@ -74,6 +74,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 50px;
 } 
 
+.list-item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #4CB649;
+}
+
+#apps:hover {
+    cursor: pointer;
+    text-decoration: underline 3px #4CB649;
+}
+
 .logo {
     display: flex;
     height: 36px;
@@ -231,6 +241,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
 }
 
+.commentaries {
+    margin-top: 15px;
+}
+
 .directly-tags {
     display: flex;
     font-size: 14px;
@@ -246,16 +260,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .directly-tags ul {
     margin-top: 10px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    color: #4CB649;
     display: flex;
     list-style: none;
 }
 
 .directly-tags ul li {
     margin-right: 25px;
+    
+}
+
+.tag {
+    font-size: 14px;
     letter-spacing: .05em;
+    color: #4CB649;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tag-buttons {
