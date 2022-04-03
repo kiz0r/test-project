@@ -623,6 +623,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+.left-container {
+    display: flex;
+}
+
 .info-box {
     display: flex;
 }
@@ -643,4 +647,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-content {
     width: 275px;
+}
+
+.box-about p {
+    font-size: 14px;
+    color:  #889099;
+}
+
+.social ul {
+    display: flex;  
+}
+
+.social ul li {
+    margin-left: 30px;
+}
+
+#facebook {
+    margin-left: 0px !important;
+}
+
+.social-img {
+    height: 30px;
 }
