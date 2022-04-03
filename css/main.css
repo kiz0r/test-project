@@ -142,13 +142,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10px;
 }
 
+.login,
+.get,
+.sign-up, 
+.left-section-btn {
+    transition: all 0.5s ease;
+}
+
 .login:hover,
 .get:hover,
 .sign-up:hover,
 .left-section-btn:hover {
+    color: #fff;    
     background: rgb(76,182,73);
     background: linear-gradient(0deg, rgba(76,182,73,1) 0%, rgba(92,221,89,1) 100%);
-    color: #fff;
+    
 }
 
 .wrapper {
@@ -460,6 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 .firstOffer,
 .secondOffer,
 .thirdOffer {
+    transition: all 0.3s ease;
     padding-top: 51px;
     border-radius: 10px;
     background: #fff;
@@ -593,11 +602,13 @@ h1, h2, h3, h4, h5, h6 {
 .system {
     height: 80px;
     width: 80px;
+    transition: all 0.3s ease;
 }
 
 .system:hover {
-    background: rgba(0, 0, 0, .2);
-    border-radius: 20px;
+    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+    border-radius: 30px;
+    transform: scale(1.2);
 }
 
 .mastercard {
@@ -664,6 +675,10 @@ h1, h2, h3, h4, h5, h6 {
 #info-links li a {
     font-size: 14px;
     color: #889099;
+}
+
+#info-links li a:hover {
+    text-decoration: underline;
 }
 
 .info-content {
