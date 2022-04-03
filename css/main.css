@@ -639,17 +639,18 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
-.paymentSystems li a {
+.paymentSystems li {
+    height: 80px;
     margin-left: 20px;
+    transition: all 0.3s ease;
 }
 
 .system {
     height: 80px;
     width: 80px;
-    transition: all 0.3s ease;
 }
 
-.system:hover {
+.paymentSystems li:hover {
     box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
     border-radius: 30px;
     transform: scale(1.2);
