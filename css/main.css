@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
 }
 
+.special-container {
+    display: flex;
+}
+
 .warning {
     display: flex;
     background: #22252E;
@@ -545,7 +549,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pay-way {
-    width: 915px;
-    margin: 0;
     display: flex;
+    margin: auto;
+    width: 970px;
+    height: 100px;
+    background: rgba(255, 255, 255, .8 );
+    border-radius: 20px;
+}
+
+.pay-way h5 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.payment-systems {
+    display: flex;
+    list-style: none;
+}
+
+.payment-systems li a {
+    margin-left: 20px;
+}
+
+.system {
+    height: 80px;
+    width: 80px;
+}
+
+.mastercard {
+    margin-top: 20px;
+    height: 50px;
+    width: 80px;
 }
