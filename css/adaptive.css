@@ -65,4 +65,25 @@
     .navMobile {
         display: flex;
     }
+    .wrapper {
+        display: block;
+    }
+    .remote {
+        height: 223px;
+        width: 335px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;        
+    }
+    .contentWrapper {
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    .contentWrapper h4 {
+        margin-bottom: 17px;
+    }
+    .tags {
+        display: none;
+    }
 }
