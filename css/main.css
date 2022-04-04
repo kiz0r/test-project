@@ -5,6 +5,7 @@ body {
 
 a, 
 p {
+    margin: 0;
     text-decoration: none;
     color: #323642;
     font-family: 'Roboto', sans-serif;
@@ -38,14 +39,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .warningWrapper {
     margin: 0 auto;
-    width: 611px;
-    display: inline-flex;
+    width: 615px;
+    display: flex;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.warningWrapper span {
+.block1, .block2 {
     display: flex;
+}
+
+.ip {
+    margin-left: 34px;
 }
 
 .text {
@@ -56,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .orange {
+    margin: 0;
     font-weight: 700;
     padding-left: 26px;
     color: #FF8D00;
@@ -64,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .info {
     height: 16px;
-    margin-top: 18px;
+    margin-top: 7px;
     color: #fff;
 }
 
@@ -82,6 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
     display: flex;
+    width: 1600px;
+    margin: 0 auto;
     margin-left: 50px;
 } 
 
