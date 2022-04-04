@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobileBtn {
-    
+
 }
 /* Nav For Mobile (End) */
 
@@ -360,6 +360,10 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 75px;
+}
+
+.scrollbarHeader-mobile {
+    display: none !important;
 }
 
 .leftSection {

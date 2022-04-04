@@ -86,4 +86,25 @@
     .tags {
         display: none;
     }
+    .scrollbarHeader-mobile {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex !important;
+        width: 335px;
+    }
+    .rightSection {
+        display: none;
+    }
+    .leftSection {
+        width: 315px;
+    }
+    .galleryImg {
+        width: 315px;
+        height: 200px;
+    }
+    .first,
+    .second,
+    .third {
+        display: block;
+    }
 }
