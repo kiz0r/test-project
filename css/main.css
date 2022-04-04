@@ -32,6 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Header (Begin) */
+
+/* Alert (Begin) */
 .warning {
     display: flex;
     background: #22252E;
@@ -85,10 +87,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 8px;
     margin-right: 16px;
 }
+/* Alert (End) */
 
-.nav {
+/* Nav For Desktop (Begin) */
+.navDesktop {
     display: flex;
-    width: 1600px;
     margin: 0 auto;
     margin-left: 50px;
 } 
@@ -117,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 100px;
 }
 
-.nav ul li {
+.navDesktop ul li {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -132,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 36px;
 }
 
-.nav ul li span {
+.navDesktop ul li span {
     display: flex;
     margin-right: 24px;
 }
@@ -144,7 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 .btns {
     display: flex;
     margin-top: 40px;
-    margin-left: 220px;
+    margin-left: auto;
+    margin-right: 60px;
 }
 
 .btns a {
@@ -160,7 +164,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .login {
-    background: #fff;
     width: 90px;
     color: #4CB649;
 }
@@ -186,6 +189,35 @@ h1, h2, h3, h4, h5, h6 {
     background: rgb(76,182,73);
     background: linear-gradient(0deg, rgba(76,182,73,1) 0%, rgba(92,221,89,1) 100%);    
 }
+/* Nav For Desktop (End) */
+
+/* Nav For Mobile (Begin) */
+.navMobile {
+    display: none;
+}
+
+.navMobile-wrapper {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 12px;
+    width: 375px;
+}
+
+.menu {
+    background: none;
+    border: none;
+    padding: 0;
+    height: 16px;
+}
+
+.mobileLogo {
+    margin: 0;
+    height: 24px;
+    margin-top: -5px;
+    margin-left: 12px;
+}
+
+/* Nav For Mobile (End) */
 
 .wrapper {
     margin-top: 20px;

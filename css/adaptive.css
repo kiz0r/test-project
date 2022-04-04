@@ -58,5 +58,11 @@
         order: 1;
         margin-bottom: -5px;
         margin-left: auto;
+    }   
+    .navDesktop {
+        display: none;
+    }
+    .navMobile {
+        display: flex;
     }
 }
