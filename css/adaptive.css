@@ -29,7 +29,7 @@
     }  
     .warningWrapper {
         display: flex;
-        width: 400px;
+        width: 375px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 10px;
@@ -106,5 +106,18 @@
     .second,
     .third {
         display: block;
+    }
+    .galleryWrapper {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .line {
+        width: 315px;
+    }
+    .forMobile {
+        display: none;
+    }
+    .seeMore-mobile {
+        margin-top: 60px;
     }
 }
