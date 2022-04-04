@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 8px;
 }
 
+.warningWrapper span {
+    display: flex;
+}
+
 .text {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -61,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 .info {
     height: 16px;
     margin-top: 18px;
+    color: #fff;
 }
 
 .info:hover {
@@ -207,6 +212,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.05em;
 }
 
+
 #vertical-slash {
     margin-left: 10px;
     margin-right: 10px;
@@ -215,6 +221,15 @@ h1, h2, h3, h4, h5, h6 {
 #date {
     color: #889099;
     text-transform: uppercase;
+}
+
+
+.main-articleAuthor {
+    margin-bottom: 15px;
+}
+
+.headerTags {
+    margin-top: 15px;
 }
 
 .comments {

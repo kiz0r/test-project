@@ -1,0 +1,36 @@
+@media screen and (min-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+   
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    
+}
+
+@media screen and (max-width: 575px) and (min-width: 0px) {
+    /* Setting Size And Centre Alignment */
+    .container {
+        width: 335px;
+        margin: auto;
+    }
+    .warning {
+        width: 100%;
+    }  
+    .warningWrapper {
+        display: flex;
+        margin: auto;
+        width: 85%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .warningWrapper span {
+        display: block;
+    }
+}
