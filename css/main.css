@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-
 /* Header (Begin) */
 
 /* Alert (Begin) */
@@ -867,6 +866,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
+.footerWrapper {
+    display: flex;
+}
+
 .leftContainer {
     display: flex;
 }
@@ -875,21 +878,25 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
-#infoLinks {
+.learnMore {
+    margin-top: 35px;
+}
+
+.infoLinks {
     padding: 0;
     list-style: none;
 }
 
-#infoLinks li {
+.infoLinks li {
     margin-top: 7px;
 }
 
-#infoLinks li a {
+.infoLinks li a {
     font-size: 14px;
     color: #889099;
 }
 
-#infoLinks li a:hover {
+.infoLinks li a:hover {
     text-decoration: underline;
 }
 
