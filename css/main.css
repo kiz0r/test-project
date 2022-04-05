@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Setting Size And Centre Alignment */
 .container {
-    width: 1200px;
+    width: 80%;
     margin: auto;
 }
 
@@ -849,37 +849,30 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Footer (Begin) */
-/* Desktop Footer (Begin) */
-.footer {
-    display: flex;
+.footerWrapper {
+    display: flex; 
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
 .footer-logo {
+    width: 275px;
     margin-top: 72px;
     margin-bottom: 72px;
+    margin-left: 10%;
+    padding: 0;
 }
 
-.footer h5 {
+.footerWrapper h5 {
     text-transform: uppercase;
     color: #323642;
     font-size: 14px;
     font-weight: 500;
 }
 
-.footerWrapper {
-    display: flex;
-}
-
-.leftContainer {
-    display: flex;
-}
-
-.infoBox {
-    display: flex;
-}
-
 .learnMore {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .infoLinks {
@@ -901,7 +894,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .infoContent {
-    width: 275px;
+    width: 154px;
+    margin-right: auto;
+}
+
+.boxAbout {
+    width: 600px;
+    margin-left: auto;
 }
 
 .boxAbout h5 {
@@ -914,6 +913,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social {
+    width: 335px;
     margin-top: 20px;
     padding-bottom: 90px;
 }
@@ -933,5 +933,4 @@ h1, h2, h3, h4, h5, h6 {
 .social-img {
     height: 30px;
 }
-/* Desktop Footer (End) */
 /* Footer (End) */
