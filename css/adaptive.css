@@ -86,17 +86,22 @@
     .tags {
         display: none;
     }
+    .specialContainer {
+        display: block;
+    }
     .scrollbarHeader-mobile {
         margin-top: 40px;
         margin-bottom: 40px;
         display: flex !important;
         width: 335px;
     }
-    .rightSection {
-        display: none;
-    }
+    .rightSection,
     .leftSection {
         width: 315px;
+        margin-right: 0;
+    }
+    .rightSection {
+        margin-top: 61px;
     }
     .galleryImg {
         width: 315px;
@@ -119,5 +124,29 @@
     }
     .seeMore-mobile {
         margin-top: 60px;
+    }
+    .rightSection {
+        border: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .scrollbarHeader {
+        display: none;
+    }
+    .scrollbarContent {
+        width: 315px;
+    }
+    .bigBrother, 
+    .tagCloud {
+        width: 315px;
+    }
+    .priceList {
+        width: 375px;
+    }
+    .offers {
+        display: block;
+        width: 315px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

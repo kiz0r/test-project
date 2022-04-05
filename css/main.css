@@ -564,6 +564,27 @@ h1, h2, h3, h4, h5, h6 {
     background-image: linear-gradient(to left top, #272b35, #2c313c, #323643, #373c4a, #3d4251);
 }
 
+.offerWrapper {
+    margin-left: 88px;
+    margin-right: 87px;
+    margin-top: 51px;
+}
+
+.firstOffer,
+.secondOffer,
+.thirdOffer {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    background: #fff;
+    width: 380px;
+    height: 340px;
+    border: 4px solid #fff;
+}
+
+.wrapperToSecond { 
+    margin-top: -18px;
+}
+
 .sale {
     padding-top: 100px;
     padding-bottom: 41px;
@@ -596,18 +617,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
-.firstOffer,
-.secondOffer,
-.thirdOffer {
-    transition: all 0.3s ease;
-    padding-top: 51px;
-    border-radius: 10px;
-    background: #fff;
-    width: 380px;
-    height: 340px;
-    border: 4px solid #fff;
-}
-
 .firstOffer:hover,
 .secondOffer:hover,
 .thirdOffer:hover {
@@ -638,7 +647,7 @@ h1, h2, h3, h4, h5, h6 {
 .deal {
     display: flex;
     position: relative;
-    top: -68px;
+    top: -13px;
     left: 315px;
     width: 80px;
     height: 80px;
@@ -692,21 +701,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .signupBtn {
     display: flex;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 205px;
 }
 
 .first-signup-btn {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .signUp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
     border: 1px solid #4CB649;
     border-radius: 50px;
     font-weight: 500;
     font-size: 14px;
     color: #4CB649;
-    margin-left: 20px;
     padding-top: 10px;
     padding-right: 61px;
     padding-bottom: 10px;
