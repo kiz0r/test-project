@@ -715,33 +715,37 @@
     <!-- Creating A Price List !-->
     <section class="priceList">
         <div class="container">
-            <h2 class="sale">
-                Sign up today – 7 day money back guarantee
+            <h2 class="sale unselectable">
+                Sign up today 
+                <br class="mobileBreaks">
+                – 7 day money back 
+                <br class="mobileBreaks">
+                guarantee
             </h2>
             <div class="offers">
                 <!-- Creating A First Offer (Left Card) !-->
                 <div class="firstOffer">
                     <div class="offerWrapper">
-                        <h5>
+                        <h5 class="unselectable">
                             Monthly
                         </h5>
                         <div class="greenLine"></div>
 
                         <div class="price">
-                            <p id="currency">
+                            <p id="currency" class="unselectable">
                                 $
                             </p>
-                            <h3 id="rate">
+                            <h3 id="rate" class="unselectable">
                                6.95 
                             </h3>
-                            <p id="period">
+                            <p id="period" class="unselectable">
                                 /mo.
                             </p>
                         </div>
 
                         <div class="greyLine firstGreyLine"></div>
 
-                        <h6>
+                        <h6 class="unselectable">
                             Includes all VPN features.
                         </h6>
 
@@ -757,27 +761,26 @@
                 <div class="secondOffer">
                     <img src="img/best-deal.svg" alt="Best Deal" class="deal">
                     <div class="offerWrapper wrapperToSecond">
-                        
-                        <h5>
+                        <h5 class="unselectable">
                             Two Years
                         </h5>
                         <div class="greenLine"></div>
 
                         <div class="price">
-                            <p id="currency">
+                            <p id="currency" class="unselectable">
                                 $
                             </p>
-                            <h3 id="rate">
+                            <h3 id="rate" class="unselectable">
                                2.91
                             </h3>
-                            <p id="period">
+                            <p id="period" class="unselectable">
                                 /mo.
                             </p>
                         </div>
 
                         <div class="greyLine"></div>
 
-                        <h6 class="rally">
+                        <h6 class="rally unselectable">
                             <span id="red">
                                 $166.80
                             </span>
@@ -799,26 +802,26 @@
                 <!-- Creating A Third Offer (Right Card) !-->
                 <div class="thirdOffer">
                     <div class="offerWrapper">
-                        <h5>
+                        <h5 class="unselectable">
                             Yearly
                         </h5>
                         <div class="greenLine"></div>
 
                         <div class="price">
-                            <p id="currency">
+                            <p id="currency" class="unselectable">
                                 $
                             </p>
-                            <h3 id="rate">
+                            <h3 id="rate" class="unselectable">
                                3.33
                             </h3>
-                            <p id="period">
+                            <p id="period" class="unselectable">
                                 /mo.
                             </p>
                         </div>
 
                         <div class="greyLine"></div>
 
-                        <h6 class="rally">
+                        <h6 class="rally unselectable">
                             <span id="red">
                                 $83.40
                             </span>
@@ -838,9 +841,9 @@
                 </div>
             </div>
 
-            <!-- Creating A Banner Which Shows The Ways You Can Pay !-->
+            <!-- Creating A Banner Which Shows The Ways You Can Pay (For Desktop) !-->
             <div class="payWay">
-                <h5>
+                <h5 class="unselectable">
                     Ways to pay:
                 </h5>
                 <div class="paymentWrapper">
@@ -881,25 +884,79 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+            </div>
+
+            <!-- Creating A Banner Which Shows The Ways You Can Pay (For Mobile) !-->
+            <div class="payWayMobile">
+                <h5>
+                    Ways to pay:
+                </h5>
+                <div class="paymentWrapper">
+
+                    <div class="paySystems">
+                        <span id="lineFirst">
+                            <a href="#">
+                                <img class="system" src="img/visa-logo.svg" alt="Visa Logo">
+                            </a>
+                        </span>
+                        <span id="lineSecond">
+                            <a href="#">
+                                <img class="system mastercard" src="img/mastercard-logo.svg" alt="MasterCard Logo">
+                            </a>
+                        </span>
+                        <span id="lineThird">
+                            <a href="#">
+                                <img class="system" src="img/amex-logo.svg" alt="American Express">  
+                            </a>
+                        </span>   
+                    </div>
+
+                    <div class="paySystems">
+                        <span id="lineFirst">
+                            <a href="#">
+                                <img class="system" src="img/paypal-logo.svg" alt="PayPal Logo">  
+                            </a>
+                        </span>
+                        
+                        <span id="lineSecond">
+                            <a href="#">
+                                <img class="system" src="img/bitcoin-logo.svg" alt="Bitcoin Logo">  
+                            </a>
+                        </span>
+                        
+                        <span id="lineThird">
+                            <a href="#">
+                                <img class="system" src="img/okpay-logo.svg" alt="OK Pay Logo">  
+                            </a>
+                        </span>      
+                    </div>  
+
+                    <div id="paySystems" class="amazonMobile">
+                        <span class="lineSecond">
+                            <a href="#">
+                                <img class="system" src="img/amazon-logo.svg" alt="Amazon Pay Logo">
+                            </a>
+                        </span>   
+                    </div>
                 </div>   
-            </div> 
+            </div>
+            <!-- Creating Buttons By Which You Can Learn Some Points!-->
+            <div class="readmore">
+                <a href="#" class="priceButtons">
+                    <span class="more">
+                        How to pay anonymously
+                    </span>
+                    <img src="img/right-arrow.svg" alt="arrow">
+                </a>
+                <a href="#" class="priceButtons giftCard">
+                    <span class="more">
+                       REDEEM GIFT CARD 
+                    </span>
+                    <img src="img/right-arrow.svg" alt="arrow">
+                </a>
+            </div>
         </div>
-        
-        <!-- Creating Buttons By Which You Can Learn Some Points!-->
-        <span class="readmore">
-            <a href="#">
-                <span class="more">
-                    How to pay anonymously
-                </span>
-                <img src="img/right-arrow.svg" alt="arrow">
-            </a>
-            <a href="#">
-                <span class="more">
-                   REDEEM GIFT CARD 
-                </span>
-                <img src="img/right-arrow.svg" alt="arrow">
-            </a>
-        </span>
     </section>
 
     <footer class="footer">
@@ -907,206 +964,206 @@
             <a href="#" class="logo footer-logo">
                 <img src="img/logo.svg" alt="logo">
             </a>
-            <div class="specialContainer">
+            <!-- Creating Footer For Desktop !-->
+            <div class="specialContainer desktopFooter">
 
                 <!-- Creating A Left Section Of Footer !-->
                 <div class="leftContainer">
-                        <div class="infoBox">
-                            <div class="infoContent">
-                                <h5>
-                                    Company
-                                </h5>
-                                <ul id="infoLinks">
-                                    <li>
-                                        <a href="#">
-                                            About Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Our Team
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Careers
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Press
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            In The Media
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            VPN Reviews
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Companies We Support
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Contact Us
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Blog
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="wrap">
-                                <div class="infoBox">
-                                    <div class="infoContent">
-                                        <h5>
-                                            Programs
-                                        </h5>
-                                        <ul id="infoLinks">
-                                            <li>
-                                                <a href="#">
-                                                    Whitehat Security
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    Affiliates
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="infoBox">
-                                    <div class="infoContent">
-                                        <h5>
-                                            Learn More
-                                        </h5>
-                                        <ul id="infoLinks">
-                                            <li>
-                                                <a href="#">
-                                                    VPN Encryption
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">            
-                                                    Android VPN App
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    iOS VPN App
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    PIA Sitemap
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                    <div class="infoBox">
+                        <div class="infoContent">
+                            <h5 class="unselectable">
+                                Company
+                            </h5>
+                            <ul id="infoLinks">
+                                <li>
+                                    <a href="#">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Our Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Careers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Press
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        In The Media
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        VPN Reviews
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Companies We Support
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Blog
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="wrap">
+                            <div class="infoBox">
+                                <div class="infoContent">
+                                    <h5 class="unselectable">
+                                        Programs
+                                    </h5>
+                                    <ul id="infoLinks">
+                                        <li>
+                                            <a href="#">
+                                                Whitehat Security
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Affiliates
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="infoContent">
-                                <h5>
-                                    Legal
-                                </h5>
-                                <ul id="infoLinks">
-                                    <li>
-                                        <a href="#">
-                                            Terms Of Service
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">            
-                                            Privacy Policy
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            DMCA Policy
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            Export Control Policy
-                                        </a>
-                                    </li>
-                                </ul>
+                            <div class="infoBox">
+                                <div class="infoContent">
+                                    <h5 class="unselectable">
+                                        Learn More
+                                    </h5>
+                                    <ul id="infoLinks">
+                                        <li>
+                                            <a href="#">
+                                                VPN Encryption
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">            
+                                                Android VPN App
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                iOS VPN App
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                PIA Sitemap
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
+                        </div>
+                        <div class="infoContent">
+                            <h5 class="unselectable">
+                                Legal
+                            </h5>
+                            <ul id="infoLinks">
+                                <li>
+                                    <a href="#">
+                                        Terms Of Service
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">            
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        DMCA Policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Export Control Policy
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
                     
-                    <!-- Creating A Right Section Of Footer !-->
-                    <div class="right-container">
-                        <div class="boxAbout">
-                            <h5>
-                                About
-                            </h5>
-                            <p class="aboutFirst">
-                                Private Internet Access is the leading VPN Service provider specializing in secure, encrypted VPN tunnels which create several layers of privacy and security providing you safety on the internet. Our service is backed by multiple gateways worldwide with access in 28+ countries, 44+ regions.
-                            </p>
-                            <p class="aboutSecond">
-                                Map data provided by Google.
-                                <br>
-                                <br>
-                                PC Mag Editor’s Choice award image reprinted with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
-                                <br>
-                                <br>
-                                PC Mag quote reprinted from www.pcmag.com with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
-                                <br>
-                                <br>
-                                © London Trust Media, Inc. All Rights Reserved.
-                            </p>    
-                        
-                        </div>
-                        <div class="social">    
-                            <h5>    
-                                Social
-                            </h5>
-                            <ul id="infoLinks">    
-                                <li id="facebook">    
-                                    <a href="#">
-                                        <img class="social-img" src="img/fb-logo.svg" alt="Facebook Logo">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="social-img" src="img/tw-logo.svg" alt="Twitter Logo">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="social-img" src="img/googleplus-logo.svg" alt="Google Plus Logo">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="social-img" src="img/linkedin-logo.svg" alt="LinkedIn Logo">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="social-img" src="img/git-logo.svg" alt="Git Logo">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="social-img" src="img/yt-logo.svg" alt="YouTube Logo">
-                                    </a>
-                                </li>
-                            </ul>   
-                        </div>  
+                <!-- Creating A Right Section Of Footer !-->
+                <div class="rightContainer">
+                    <div class="boxAbout">
+                        <h5 class="unselectable">
+                            About
+                        </h5>
+                        <p class="aboutFirst">
+                            Private Internet Access is the leading VPN Service provider specializing in secure, encrypted VPN tunnels which create several layers of privacy and security providing you safety on the internet. Our service is backed by multiple gateways worldwide with access in 28+ countries, 44+ regions.
+                        </p>
+                        <p class="aboutSecond">
+                            Map data provided by Google.
+                            <br class="unselectable">
+                            <br class="unselectable">
+                            PC Mag Editor’s Choice award image reprinted with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
+                            <br class="unselectable">
+                            <br class="unselectable">
+                            PC Mag quote reprinted from www.pcmag.com with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
+                            <br class="unselectable">
+                            <br class="unselectable">
+                            © London Trust Media, Inc. All Rights Reserved.
+                        </p>    
+                    </div>
+
+                    <div class="social">
+                        <h5 class="unselectable">    
+                            Social
+                        </h5>
+                        <ul id="infoLinks">    
+                            <li id="facebook">    
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/fb-logo.svg" alt="Facebook Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/tw-logo.svg" alt="Twitter Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/googleplus-logo.svg" alt="Google Plus Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/linkedin-logo.svg" alt="LinkedIn Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/git-logo.svg" alt="Git Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/yt-logo.svg" alt="YouTube Logo">
+                                </a>
+                            </li>
+                        </ul>   
                     </div>  
+                </div>  
             </div>
-                    
         </div>  
     </footer>
 </body>

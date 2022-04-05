@@ -141,7 +141,15 @@
         width: 315px;
     }
     .priceList {
-        width: 375px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sale {
+        font-size: 32px;
+    }
+    .mobileBreaks {
+        display: block;
     }
     .offers {
         display: block;
@@ -149,4 +157,77 @@
         margin-left: auto;
         margin-right: auto;
     }
-}
+    .offerWrapper {
+        width: 209px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .firstOffer,
+    .secondOffer,
+    .thirdOffer {
+        transition: all 0.3s ease;
+        border-radius: 10px;
+        background: #fff;
+        width: 315px;
+        height: 340px;
+        border: 4px solid #fff;
+        margin-top: 20px;
+    }
+    .deal {
+        top: -13px;
+        left: 250px;
+    }
+    .payWay {
+        display: none;
+    }
+    .payWayMobile {
+        display: block;
+        height: 225px;
+        width: 315px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .payWayMobile h5 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .paymentWrapper {
+        display: block;
+    }
+    .mastercard {
+        height: 30px;
+        margin-top: 0;
+    }
+    .system {
+        height: 30px;
+    }
+    .amazonPay {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .readmore {
+        display: block;
+    }
+    .priceButtons {
+        display: block;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .more {
+        text-align: justify;
+        letter-spacing: 0.05em;
+        margin-left: 10px;
+    }
+    .giftCard {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        width: 100%;
+    }
+    .wrap {
+        flex-wrap: 50%;
+    }
+}  

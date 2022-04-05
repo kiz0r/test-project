@@ -3,6 +3,17 @@ body {
     margin: 0;
 }
 
+/* I You Want To Make Some Text Unselectable */
+.unselectable {
+  -webkit-touch-calloud: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
 a, 
 p {
     margin: 0;
@@ -320,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .directlyTags ul {
-    margin-top: 10px;
+    margin-top: 9px;
     display: flex;
     list-style: none;
 }
@@ -557,7 +568,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
 }
 /* Tag Cloud Design (End) */
-/* Header (End) */
+/* Section.mainContent (End) */
 
 /* Section.priceList (Begin) */
 .priceList {
@@ -592,6 +603,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 48px;
     color: #fff;
     text-align: center;
+}
+
+.mobileBreaks {
+    display: none;
 }
 
 .offers {
@@ -658,6 +673,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #22252E;
     font-size: 24px;
     font-weight: 300;
+}
+
+#period {
+    margin-top: auto;
+    margin-bottom: 15px;
 }
 
 #rate {
@@ -770,8 +790,43 @@ h1, h2, h3, h4, h5, h6 {
     width: 80px;
 }
 
+/* Mobile (Begin) */
+.payWayMobile {
+    display: none;
+    margin: auto;
+    width: 325px;
+    height: 100px;
+    background: rgba(255, 255, 255, .8 );
+    border-radius: 20px;
+}
+.paymentWrapper table {
+    display: flex;
+    margin: 0;
+}
+.paySystems {
+    display: flex;
+    margin-top: 22px;
+    width: inherit;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+#lineFirst {
+    margin-left: 25px;
+}
+#lineThird {
+    margin-right: 25px;
+}
+.amazonMobile {
+    width: 90px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Mobile (End) */
+
 .readmore {
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     width: 400px;
     justify-content: space-between;
@@ -795,6 +850,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Footer (Begin) */
+/* Desktop Footer (Begin) */
 .footer {
     display: flex;
 }
@@ -841,12 +897,17 @@ h1, h2, h3, h4, h5, h6 {
     width: 275px;
 }
 
+.boxAbout h5 {
+    margin-bottom: 10px;
+}
+
 .boxAbout p {
     font-size: 14px;
     color:  #889099;
 }
 
 .social {
+    margin-top: 20px;
     padding-bottom: 90px;
 }
 
@@ -865,4 +926,5 @@ h1, h2, h3, h4, h5, h6 {
 .social-img {
     height: 30px;
 }
+/* Desktop Footer (End) */
 /* Footer (End) */
