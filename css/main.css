@@ -848,10 +848,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Section.priceList (End) */
 
 
-/* Footer (Begin) */
-.footerWrapper {
-    display: flex; 
-    justify-content: space-between;
+/* Footer (Begin) 
+.footer {
+    display: flex;
     width: 80%;
     margin: auto;
 }
@@ -864,15 +863,81 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-.footerWrapper h5 {
+
+
+.learnMore {
+    margin-top: 50px;
+}
+
+.legal {
+    margin-left: 100%;
+}
+
+
+
+.infoContent {
+    width: 154px;
+}
+
+
+
+Footer (End) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footerWrapper {
+    width: 80%;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    margin: auto;
+}
+
+.footerLogo {
+    margin: 0;
+    padding: 0;
+}
+
+.infoWrapper {
+    display: flex;
+    margin-top: 75px;
+}
+
+.infoWrapper h5 {
     text-transform: uppercase;
     color: #323642;
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.08em;
 }
 
-.learnMore {
-    margin-top: 50px;
+.infoBox {
+    width: 20%;
+}
+
+.programLinks {
+    margin-bottom: 53px;
 }
 
 .infoLinks {
@@ -893,14 +958,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-.infoContent {
-    width: 154px;
-    margin-right: auto;
-}
-
 .boxAbout {
-    width: 600px;
-    margin-left: auto;
+    width: 40%;
 }
 
 .boxAbout h5 {
@@ -910,6 +969,11 @@ h1, h2, h3, h4, h5, h6 {
 .boxAbout p {
     font-size: 14px;
     color:  #889099;
+    line-height: 20px;
+}
+
+.copy {
+    margin-bottom: 45px;
 }
 
 .social {
@@ -918,11 +982,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 90px;
 }
 
-.social ul {
+.social {
     display: flex;  
 }
-
-.social ul li {
+    
+.social li {
     margin-left: 30px;
 }
 
@@ -933,4 +997,4 @@ h1, h2, h3, h4, h5, h6 {
 .social-img {
     height: 30px;
 }
-/* Footer (End) */
+/* footer (end) */
