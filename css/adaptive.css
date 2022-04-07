@@ -1,227 +1,282 @@
 @media screen and (min-width: 1200px) {
-    
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
-
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-   
 }
 
 @media screen and (max-width: 767px) and (min-width: 576px) {
-    
 }
 
 @media screen and (max-width: 575px) and (min-width: 0px) {
-    /* Setting Size And Centre Alignment */
-    body {
-        width: 100%;
-    }
-    .container {
-        width: 335px;
-        margin: auto;
-    }
-    .warning {
-        width: 100%;
-        height: 90px;
-    }  
-    .warningWrapper {
-        display: flex;
-        width: 375px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 10px;
-        padding-bottom: 8px;
-        justify-content: space-between;
-    }
-    .block1 {
-        width: 214px;
-        display: block;
-        margin-right: auto;
-    }
-    .block2 {
-        margin-left: auto;
-        width: 168px;
-        display: grid;
-    }
-    .ip {
-        margin-left: 0;
-    }
-    .item1 {
-        order: 2;
-        margin-left: auto;
-        margin-right: 0;
-    }
-    .item2 {
-        order: 1;
-        margin-bottom: -5px;
-        margin-left: auto;
-    }   
-    .navDesktop {
-        display: none;
-    }
-    .navMobile {
-        display: flex;
-    }
-    .wrapper {
-        display: block;
-    }
-    .remote {
-        height: 223px;
-        width: 335px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;        
-    }
-    .contentWrapper {
-        margin-right: 30px;
-        margin-top: 30px;
-        margin-left: 30px;
-        margin-bottom: 15px;
-    }
-    .contentWrapper h4 {
-        margin-bottom: 17px;
-    }
-    .tags {
-        display: none;
-    }
-    .specialContainer {
-        display: block;
-    }
-    .scrollbarHeader-mobile {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        display: flex !important;
-        width: 335px;
-    }
-    .rightSection,
-    .leftSection {
-        width: 315px;
-        margin-right: 0;
-    }
-    .rightSection {
-        margin-top: 61px;
-    }
-    .galleryImg {
-        width: 315px;
-        height: 200px;
-    }
-    .first,
-    .second,
-    .third {
-        display: block;
-    }
-    .galleryWrapper {
-        margin-top: 20px;
-        margin-left: 0;
-    }
-    .line {
-        width: 315px;
-    }
-    .forMobile {
-        display: none;
-    }
-    .seeMore-mobile {
-        margin-top: 60px;
-    }
-    .rightSection {
-        border: none;
-        padding-left: 0;
-        margin-left: 0;
-    }
-    .scrollbarHeader {
-        display: none;
-    }
-    .scrollbarContent {
-        width: 315px;
-    }
-    .bigBrother, 
-    .tagCloud {
-        width: 315px;
-    }
-    .priceList {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .sale {
-        font-size: 32px;
-    }
-    .mobileBreaks {
-        display: block;
-    }
-    .offers {
-        display: block;
-        width: 315px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .offerWrapper {
-        width: 209px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .firstOffer,
-    .secondOffer,
-    .thirdOffer {
-        transition: all 0.3s ease;
-        border-radius: 10px;
-        background: #fff;
-        width: 315px;
-        height: 340px;
-        border: 4px solid #fff;
-        margin-top: 20px;
-    }
-    .deal {
-        top: -13px;
-        left: 250px;
-    }
-    .payWay {
-        display: none;
-    }
-    .payWayMobile {
-        display: block;
-        height: 225px;
-        width: 315px;
-        margin-left: 10px;
-        margin-right: 20px;
-    }
-    .payWayMobile h5 {
-        text-align: center;
-        padding-top: 10px;
-        font-size: 20px;
-    }
-    .paymentWrapper {
-        display: block;
-    }
-    .mastercard {
-        height: 30px;
-        margin-top: 0;
-    }
-    .system {
-        height: 30px;
-    }
-    .amazonPay {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .readmore {
-        display: block;
-    }
-    .priceButtons {
-        display: block;
-        margin-top: 40px;
-        margin-left: 40px;
-    }
-    .more {
-        text-align: justify;
-        letter-spacing: 0.05em;
-        margin-left: 10px;
-    }
-    .giftCard {
-        width: 260px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}  
+  /* Setting Size And Centre Alignment */
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 335px;
+    margin: auto;
+  }
+  .warning {
+    width: 100%;
+    height: 90px;
+  }
+  .warningWrapper {
+    display: flex;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+  }
+  .block1 {
+    width: 214px;
+    display: block;
+    margin-right: auto;
+  }
+  .block2 {
+    margin-left: auto;
+    width: 168px;
+    display: grid;
+  }
+  .ip {
+    margin-left: 0;
+  }
+  .item1 {
+    order: 2;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .item2 {
+    order: 1;
+    margin-bottom: -5px;
+    margin-left: auto;
+  }
+  .navDesktop {
+    display: none;
+  }
+  .navMobile {
+    display: flex;
+    width: 100%;
+  }
+  .wrapper {
+    display: block;
+  }
+  .remote {
+    height: 223px;
+    width: 335px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .contentWrapper {
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  .contentWrapper h4 {
+    margin-bottom: 17px;
+  }
+  .tags {
+    display: none;
+  }
+  .specialContainer {
+    display: block;
+  }
+  .scrollbarHeader-mobile {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex !important;
+    width: 335px;
+  }
+  .rightSection,
+  .leftSection {
+    width: 315px;
+    margin-right: 0;
+  }
+  .rightSection {
+    margin-top: 61px;
+  }
+  .galleryImg {
+    width: 315px;
+    height: 200px;
+  }
+  .first,
+  .second,
+  .third {
+    display: block;
+  }
+  .galleryWrapper {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .line {
+    width: 315px;
+  }
+  .forMobile {
+    display: none;
+  }
+  .seeMore-mobile {
+    margin-top: 60px;
+  }
+  .rightSection {
+    border: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .scrollbarHeader {
+    display: none;
+  }
+  .scrollbarContent {
+    width: 315px;
+  }
+  .bigBrother,
+  .tagCloud {
+    width: 315px;
+  }
+  .priceList {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sale {
+    font-size: 32px;
+  }
+  .mobileBreaks {
+    display: block;
+  }
+  .offers {
+    display: block;
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .offerWrapper {
+    width: 209px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .firstOffer,
+  .secondOffer,
+  .thirdOffer {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    background: #fff;
+    width: 315px;
+    height: 340px;
+    border: 4px solid #fff;
+    margin-top: 20px;
+  }
+  .deal {
+    top: -13px;
+    left: 250px;
+  }
+  .payWay {
+    display: none;
+  }
+  .payWayMobile {
+    display: block;
+    height: 225px;
+    width: 315px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .payWayMobile h5 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .paymentWrapper {
+    display: block;
+  }
+  .mastercard {
+    height: 30px;
+    margin-top: 0;
+  }
+  .system {
+    height: 30px;
+  }
+  .amazonPay {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .readmore {
+    display: block;
+  }
+  .priceButtons {
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .more {
+    text-align: justify;
+    letter-spacing: 0.05em;
+    margin-left: 10px;
+  }
+  .giftCard {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footerLinks {
+    display: none;
+  }
+  .mobileSocial {
+    display: block;
+  }
+  .social {
+    padding-bottom: 0;
+  }
+  .noMargin ul {
+    margin-left: -20px;
+  }
+  .boxAbout {
+    display: block;
+  }
+}
+
+/* Adaptive for footer */
+
+@media screen and (max-width: 1200px) {
+  .infoWrapper {
+    flex-wrap: wrap;
+  }
+
+  .infoBox {
+    width: 33.33%;
+    margin-bottom: 20px;
+  }
+
+  .boxAbout {
+    min-width: auto;
+    width: 100%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .infoBox {
+    width: 50%;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .infoBox {
+    width: 100%;
+  }
+
+  .social {
+    width: 100%;
+  }
+
+  .social-img {
+    height: 18px;
+  }
+}

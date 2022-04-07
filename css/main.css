@@ -1,1000 +1,973 @@
 body {
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 /* I You Want To Make Some Text Unselectable */
 .unselectable {
   -webkit-touch-calloud: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   not supported by any browser */
 }
 
-a, 
+a,
 p {
-    margin: 0;
-    text-decoration: none;
-    color: #323642;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
+  margin: 0;
+  text-decoration: none;
+  color: #323642;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Setting The Width For Some Blocks */
+.header,
+.warning,
+.navDesktop,
+.navMobile,
+.mainContent,
+.header,
+.footer {
+  width: 100%;
 }
 
 /* Setting Font To All Headers */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    color: #323642;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #323642;
 }
 
 /* Setting Size And Centre Alignment */
 .container {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .specialContainer {
-    display: flex;
+  display: flex;
 }
 
 /* Header (Begin) */
 
 /* Alert (Begin) */
 .warning {
-    display: flex;
-    background: #22252E;
+  display: flex;
+  background: #22252e;
 }
 
 .warningWrapper {
-    margin: 0 auto;
-    width: 615px;
-    display: flex;
-    padding-top: 8px;
-    padding-bottom: 8px;
+  margin: 0 auto;
+  width: 615px;
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
-.block1, .block2 {
-    display: flex;
+.block1,
+.block2 {
+  display: flex;
 }
 
 .ip {
-    margin-left: 34px;
+  margin-left: 34px;
 }
 
 .text {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: #889099;
-    margin-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #889099;
+  margin-right: 35px;
 }
 
 .orange {
-    margin: 0;
-    font-weight: 700;
-    padding-left: 26px;
-    color: #FF8D00;
-    background: url('../img/triangle.svg') no-repeat center left;
+  margin: 0;
+  font-weight: 700;
+  padding-left: 26px;
+  color: #ff8d00;
+  background: url("../img/triangle.svg") no-repeat center left;
 }
 
 .info {
-    height: 16px;
-    margin-top: 7px;
-    color: #fff;
+  height: 16px;
+  margin-top: 7px;
+  color: #fff;
 }
 
 .info:hover {
-    text-decoration: underline;
-    font-weight: 700;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 #cross {
-    height: 24px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 16px;
+  height: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 16px;
 }
 /* Alert (End) */
 
 /* Nav For Desktop (Begin) */
 .navDesktop {
-    display: flex;
-    margin: 0 auto;
-    margin-left: 50px;
-} 
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 
 .list-item:hover {
-    cursor: pointer;
-    border-bottom: 3px solid #4CB649;
+  cursor: pointer;
+  border-bottom: 3px solid #4cb649;
 }
 
 #apps:hover {
-    cursor: pointer;
-    text-decoration: underline 3px #4CB649;
+  cursor: pointer;
+  text-decoration: underline 3px #4cb649;
 }
 
 .logo {
-    display: flex;
-    height: 36px;
-    margin-top: 42px;
-    margin-bottom: 22px;
+  display: flex;
+  height: 36px;
+  margin-top: 42px;
+  margin-bottom: 22px;
 }
 
 .navigationList {
-    display: flex;
-    list-style: none;
-    padding-top: 40px;
-    margin-left: 100px;
+  display: flex;
+  list-style: none;
+  padding-top: 40px;
+  margin-left: 100px;
 }
 
 .navDesktop ul li {
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #323642;
-    letter-spacing: 0.05em;
-    height: 19px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #323642;
+  letter-spacing: 0.05em;
+  height: 19px;
 }
 
 .list-item {
-    background: url('../img/pointer.svg') no-repeat center right;
-    margin-right: 36px;
+  background: url("../img/pointer.svg") no-repeat center right;
+  margin-right: 36px;
 }
 
 .navDesktop ul li span {
-    display: flex;
-    margin-right: 24px;
+  display: flex;
+  margin-right: 24px;
 }
 
 #apps {
-    margin-right: 36px;
+  margin-right: 36px;
 }
 
 .btns {
-    display: flex;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: 60px;
+  display: flex;
+  margin-top: 40px;
+  margin-left: auto;
 }
 
 .btns a {
-    padding-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    border: solid 1px #4CB649;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 40px;
-    height: 25px;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 1px #4cb649;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 40px;
+  height: 25px;
 }
 
 .login {
-    width: 90px;
-    color: #4CB649;
+  width: 90px;
+  color: #4cb649;
 }
 
 .get {
-    color: #4CB649;
-    width: 160px;
-    margin-left: 10px;
+  color: #4cb649;
+  width: 160px;
+  margin-left: 10px;
 }
 
 .login,
 .get,
-.signUp, 
+.signUp,
 .leftSection-button {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .login:hover,
 .get:hover,
 .signUp:hover,
 .leftSection-button:hover {
-    color: #fff;    
-    background: rgb(76,182,73);
-    background: linear-gradient(0deg, rgba(76,182,73,1) 0%, rgba(92,221,89,1) 100%);    
+  color: #fff;
+  background: rgb(76, 182, 73);
+  background: linear-gradient(
+    0deg,
+    rgba(76, 182, 73, 1) 0%,
+    rgba(92, 221, 89, 1) 100%
+  );
 }
 /* Nav For Desktop (End) */
 
 /* Nav For Mobile (Begin) */
 .navMobile {
-    display: none;
+  display: none;
 }
 
 .navMobile-wrapper {
-    display: flex;
-    margin-top: 17px;
-    margin-left: 12px;
-    margin-right: 12px;
+  display: flex;
+  margin-top: 17px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 100%;
 }
 
-.mobileLogo, 
+.mobileLogo,
 .mobileBtn,
 .menu {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .menu {
-    height: 16px;
-    background: none;
-    border: none;
+  height: 16px;
+  background: none;
+  border: none;
 }
 
 .mobileLogo {
-    height: 24px;
-    margin-left: 12px;
-    margin-top: -5px;
+  height: 24px;
+  margin-left: 12px;
+  margin-top: -5px;
 }
 
 .mobileBtn {
-
+  margin-left: auto;
 }
 /* Nav For Mobile (End) */
 
 .wrapper {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #D7D8D9;
-    border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d7d8d9;
+  border-radius: 10px;
 }
 
 .remote {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .contentWrapper {
-    margin-right: 60px;
-    margin-top: 60px;
-    margin-left: 60px;
-    margin-bottom: 41px;
+  margin-right: 60px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 41px;
 }
 
-.contentWrapper h4 {    
-    margin-bottom: 87px;
-    font-weight: 300;
-    color: #22252E;
-    font-size: 24px;
+.contentWrapper h4 {
+  margin-bottom: 87px;
+  font-weight: 300;
+  color: #22252e;
+  font-size: 24px;
 }
 
 .author {
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.05em;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
 }
 
-
 #vertical-slash {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #date {
-    color: #889099;
-    text-transform: uppercase;
+  color: #889099;
+  text-transform: uppercase;
 }
 
-
 .main-articleAuthor {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .headerTags {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .comments {
-    margin-left: 10px;
-    color: #889099;
+  margin-left: 10px;
+  color: #889099;
 }
 
 #quantity {
-    font-size: 14px;
-    margin-left: 10px;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .tags {
-    display: flex;
-    margin-top: 30px;
-    background: #F7F7F7;
-    border-radius: 10px;
-    padding-top: 24px;
-    padding-right: 35px;
-    padding-bottom: 17px;
-    padding-left: 32px;
-    margin-bottom: 40px;
+  display: flex;
+  margin-top: 30px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-right: 35px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+  margin-bottom: 40px;
 }
 
 .commentaries {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .directlyTags {
-    display: flex;
-    font-size: 14px;
-    text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .directlyTags h4 {
-    font-weight: 500;
-    color: #323642;
-    font-size: 14px;
-    margin-top: 9px;
+  font-weight: 500;
+  color: #323642;
+  font-size: 14px;
+  margin-top: 9px;
 }
 
 .directlyTags ul {
-    margin-top: 9px;
-    display: flex;
-    list-style: none;
+  margin-top: 9px;
+  display: flex;
+  list-style: none;
 }
 
 .directlyTags ul li {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .tag {
-    font-size: 14px;
-    letter-spacing: .05em;
-    color: #4CB649;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #4cb649;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
 .tagButtons {
-    display: flex;
-    margin-left: auto;
+  display: flex;
+  margin-left: auto;
 }
 
 .tagButtons a {
-    margin-top: 10px;
-    color: #323642;
-    text-transform: uppercase;
-    font-size: 14px;
+  margin-top: 10px;
+  color: #323642;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .contacts {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 /* Header (End) */
 
-
 /* Section.mainContent (Begin) */
 .mainContent {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 75px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
 }
 
 .scrollbarHeader-mobile {
-    display: none !important;
+  display: none !important;
 }
 
 .leftSection {
-    margin-right: auto;
-    width: 720px;
+  margin-right: auto;
+  width: 720px;
 }
 
 .leftSection h3 {
-    font-weight: 300;
-    font-size: 32px;
-    color: #22252E;
-    margin-bottom: 41px;
+  font-weight: 300;
+  font-size: 32px;
+  color: #22252e;
+  margin-bottom: 41px;
 }
 
 .first,
 .second,
 .third {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .galleryWrapper {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .articleName {
-    color: #323642;
-    font-weight: 300;
-    font-size: 24px;
+  color: #323642;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 .galleryAuthor {
-    margin-bottom: 15px;
-    margin-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .articleAuthor {
-    color: #323642;
-    font-weight: 400;
-    font-size: 14px;    
+  color: #323642;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .line {
-    margin-right: auto;
-    width: 740px;
-    height: 1px;
-    background: #EBECED;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-right: auto;
+  width: 740px;
+  height: 1px;
+  background: #ebeced;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .line-to-first {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 
 .leftSection-button {
-    width: 100px;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    padding: 10px 78px;
-    border-radius: 40px;
-    margin-bottom: 45px;
-    background: none;
-    color: #4CB649;
-    border: 1px solid #4CB649;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
+  width: 100px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding: 10px 78px;
+  border-radius: 40px;
+  margin-bottom: 45px;
+  background: none;
+  color: #4cb649;
+  border: 1px solid #4cb649;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .rightSection {
-    width: 380px;
-    border-left: 1px solid #EBECED;
-    margin-left: auto;
-    padding-left: 40px;
+  width: 380px;
+  border-left: 1px solid #ebeced;
+  margin-left: auto;
+  padding-left: 40px;
 }
 
 .scrollbarHeader {
-    display: flex;
-    height: 60px;
-    width: 340px;
-    border: 1px solid #D7D8D9;
-    border-radius: 10px;
+  display: flex;
+  height: 60px;
+  width: 340px;
+  border: 1px solid #d7d8d9;
+  border-radius: 10px;
 }
 
 .loupe {
-    margin-left: 20px;
-    margin-top: 17px;
-    width: 18px;
-    height: 18px;
+  margin-left: 20px;
+  margin-top: 17px;
+  width: 18px;
+  height: 18px;
 }
 
 .scrollbarCaption {
-    padding-left: 20px;
-    margin-top: 17px;
-    font-size: 18px !important;
-    line-height: 24px;
+  padding-left: 20px;
+  margin-top: 17px;
+  font-size: 18px !important;
+  line-height: 24px;
 }
 
 .scrollbarContent {
-    padding-left: auto;
-    width: 340px;
+  padding-left: auto;
+  width: 340px;
 }
 
 .scrollbarContent h4 {
-    font-size: 24px;
-    font-weight: 300;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 .part {
-    margin-top: 32px;
-    border-bottom: 1px solid #EBECED;
+  margin-top: 32px;
+  border-bottom: 1px solid #ebeced;
 }
 
 .partCaption {
-    padding-top: 20px;
-    height: 40px;
-    background: url('../img/bell.svg') no-repeat left center;
-    text-align: center;
+  padding-top: 20px;
+  height: 40px;
+  background: url("../img/bell.svg") no-repeat left center;
+  text-align: center;
 }
 
 .scrollbarList li {
-    color: #4CB649;
-    margin-bottom: 20px;
+  color: #4cb649;
+  margin-bottom: 20px;
 }
 
 #last {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .scrollbarList li span {
-    color: #323642;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+  color: #323642;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .popular {
-    background: url('../img/wi-fi.svg') no-repeat left center;
+  background: url("../img/wi-fi.svg") no-repeat left center;
 }
 
 .bigBrother {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 /* Tag Cloud Design (Begin) */
 #cloud-caption {
-    margin-top: 31px;
-    margin-bottom: 17px;
+  margin-top: 31px;
+  margin-bottom: 17px;
 }
 
 .tagCloud {
-    width: 324px;
-    text-align: justiЫfy;
+  width: 324px;
+  text-align: justiЫfy;
 }
 
 .tagCloud a {
-    color: #323642;
+  color: #323642;
 }
 
 .tagLvl1 {
-    font-weight: 300;
-    font-size: 10px;
+  font-weight: 300;
+  font-size: 10px;
 }
 
 .tagLvl2 {
-    font-weight: 400;
-    font-size: 12px;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .tagLvl3 {
-    font-weight: 400;
-    font-size: 14px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .tagLvl4 {
-    font-weight: 500;
-    font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .tagLvl5 {
-    font-weight: 500;
-    font-size: 18px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .tagLvl6 {
-    font-weight: 700;
-    font-size: 30px;
+  font-weight: 700;
+  font-size: 30px;
 }
 /* Tag Cloud Design (End) */
 /* Section.mainContent (End) */
 
 /* Section.priceList (Begin) */
 .priceList {
-    background-image: linear-gradient(to left top, #272b35, #2c313c, #323643, #373c4a, #3d4251);
+  background-image: linear-gradient(
+    to left top,
+    #272b35,
+    #2c313c,
+    #323643,
+    #373c4a,
+    #3d4251
+  );
 }
 
 .offerWrapper {
-    margin-left: 88px;
-    margin-right: 87px;
-    margin-top: 51px;
+  margin-left: 88px;
+  margin-right: 87px;
+  margin-top: 51px;
 }
 
 .firstOffer,
 .secondOffer,
 .thirdOffer {
-    transition: all 0.3s ease;
-    border-radius: 10px;
-    background: #fff;
-    width: 380px;
-    height: 340px;
-    border: 4px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  background: #fff;
+  width: 380px;
+  height: 340px;
+  border: 4px solid #fff;
 }
 
-.wrapperToSecond { 
-    margin-top: -18px;
+.wrapperToSecond {
+  margin-top: -18px;
 }
 
 .sale {
-    padding-top: 100px;
-    padding-bottom: 41px;
-    font-weight: 300;
-    font-size: 48px;
-    color: #fff;
-    text-align: center;
+  padding-top: 100px;
+  padding-bottom: 41px;
+  font-weight: 300;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
 }
 
 .mobileBreaks {
-    display: none;
+  display: none;
 }
 
 .offers {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 51px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 51px;
 }
 
 .offers h5 {
-    font-size: 14px;
-    font-weight: 500;
-    color: #323642;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-align: center;
-    margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #323642;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .offers h6 {
-    color: #323642;
-    text-align: center;
-    font-weight: 400;
-    font-size: 14px;
+  color: #323642;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .firstOffer:hover,
 .secondOffer:hover,
 .thirdOffer:hover {
-    cursor: pointer;
-    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
-    transform: scale(1.05);
-    border: 4px solid #4CB649;
+  cursor: pointer;
+  box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+  transform: scale(1.05);
+  border: 4px solid #4cb649;
 }
 
 .greenLine {
-    display: flex;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-    width: 25px;
-    height: 2px;
-    background: #4CB649;
+  display: flex;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 25px;
+  height: 2px;
+  background: #4cb649;
 }
 
 .price {
-    margin: auto;
-    display: flex;
-    width: 175px;
-    height: 75px;
+  margin: auto;
+  display: flex;
+  width: 175px;
+  height: 75px;
 }
 
 .deal {
-    display: flex;
-    position: relative;
-    top: -13px;
-    left: 315px;
-    width: 80px;
-    height: 80px;
+  display: flex;
+  position: relative;
+  top: -13px;
+  left: 315px;
+  width: 80px;
+  height: 80px;
 }
 
 #currency,
 #period {
-    color: #22252E;
-    font-size: 24px;
-    font-weight: 300;
+  color: #22252e;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 #period {
-    margin-top: auto;
-    margin-bottom: 15px;
+  margin-top: auto;
+  margin-bottom: 15px;
 }
 
 #rate {
-    margin: 0;
-    font-weight: 300; 
-    font-size: 56px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 56px;
 }
 
 #currency {
-    margin-top: 14px;
-    margin-right: 7px;
+  margin-top: 14px;
+  margin-right: 7px;
 }
 
 #period {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .greyLine {
-    display: flex;
-    width: 200px;
-    height: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #EBECED;
-    margin-bottom: 18px;
+  display: flex;
+  width: 200px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ebeced;
+  margin-bottom: 18px;
 }
 
 .firstGreyLine {
-    margin-bottom: 29px;
+  margin-bottom: 29px;
 }
 
 #red {
-    color: #F24458;
-    text-decoration: line-through;
-    margin-right: 11px;
+  color: #f24458;
+  text-decoration: line-through;
+  margin-right: 11px;
 }
 
 #under-line {
-    line-height: 25px;
+  line-height: 25px;
 }
 
 .signupBtn {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 205px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 205px;
 }
 
 .first-signup-btn {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .signUp {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 26px;
-    border: 1px solid #4CB649;
-    border-radius: 50px;
-    font-weight: 500;
-    font-size: 14px;
-    color: #4CB649;
-    padding-top: 10px;
-    padding-right: 61px;
-    padding-bottom: 10px;
-    padding-left: 61px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+  border: 1px solid #4cb649;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4cb649;
+  padding-top: 10px;
+  padding-right: 61px;
+  padding-bottom: 10px;
+  padding-left: 61px;
 }
 
 .payWay {
-    display: flex;
-    margin: auto;
-    width: 970px;
-    height: 100px;
-    background: rgba(255, 255, 255, .8 );
-    border-radius: 20px;
+  display: flex;
+  margin: auto;
+  width: 970px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
 }
 
 .payWay h5 {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 45px;
-    font-size: 18px;
-    font-weight: 300;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 45px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .paymentSystems {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .paymentSystems li {
-    height: 80px;
-    margin-left: 20px;
-    transition: all 0.3s ease;
+  height: 80px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
 }
 
 .paymentSystems li:hover {
-    box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
-    border-radius: 30px;
-    transform: scale(1.2);
+  box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+  border-radius: 30px;
+  transform: scale(1.2);
 }
 
 .system {
-    height: 80px;
-    width: 80px;
+  height: 80px;
+  width: 80px;
 }
 
 .mastercard {
-    margin-top: 20px;
-    height: 50px;
-    width: 80px;
+  margin-top: 20px;
+  height: 50px;
+  width: 80px;
 }
 
 /* Mobile (Begin) */
 .payWayMobile {
-    display: none;
-    margin: auto;
-    width: 325px;
-    height: 100px;
-    background: rgba(255, 255, 255, .8 );
-    border-radius: 20px;
+  display: none;
+  margin: auto;
+  width: 325px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
 }
 .paymentWrapper table {
-    display: flex;
-    margin: 0;
+  display: flex;
+  margin: 0;
 }
 .paySystems {
-    display: flex;
-    margin-top: 22px;
-    width: inherit;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
+  display: flex;
+  margin-top: 22px;
+  width: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
 }
 #lineFirst {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 #lineThird {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 .amazonMobile {
-    width: 90px;
-    margin-top: 18px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 90px;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Mobile (End) */
 
 .readmore {
-    margin-top: 30px;
-    display: flex;
-    width: 400px;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 55px;
+  margin-top: 30px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 55px;
 }
 
 .more {
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #4CB649;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #4cb649;
 }
 
 .readmore img {
-    transform: rotate(90deg);
-    margin-left: 15px;
+  transform: rotate(90deg);
+  margin-left: 15px;
 }
 /* Section.priceList (End) */
 
-
-/* Footer (Begin) 
-.footer {
-    display: flex;
-    width: 80%;
-    margin: auto;
-}
-
-.footer-logo {
-    width: 275px;
-    margin-top: 72px;
-    margin-bottom: 72px;
-    margin-left: 10%;
-    padding: 0;
-}
-
-
-
-.learnMore {
-    margin-top: 50px;
-}
-
-.legal {
-    margin-left: 100%;
-}
-
-
-
-.infoContent {
-    width: 154px;
-}
-
-
-
-Footer (End) */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer */
+/* Footer (Begin) */
 .footerWrapper {
-    width: 80%;
-    padding-top: 70px;
-    padding-bottom: 90px;
-    margin: auto;
+  width: 80%;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  margin: auto;
 }
 
 .footerLogo {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .infoWrapper {
-    display: flex;
-    margin-top: 75px;
+  display: flex;
+  margin-top: 75px;
 }
 
 .infoWrapper h5 {
-    text-transform: uppercase;
-    color: #323642;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #323642;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
 }
 
 .infoBox {
-    width: 20%;
+  width: 20%;
 }
 
 .programLinks {
-    margin-bottom: 53px;
+  margin-bottom: 53px;
 }
 
 .infoLinks {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .infoLinks li {
-    margin-top: 7px;
+  margin-top: 7px;
 }
 
 .infoLinks li a {
-    font-size: 14px;
-    color: #889099;
+  font-size: 14px;
+  color: #889099;
 }
 
 .infoLinks li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .boxAbout {
-    width: 40%;
+  width: 40%;
+  min-width: 600px;
 }
 
 .boxAbout h5 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .boxAbout p {
-    font-size: 14px;
-    color:  #889099;
-    line-height: 20px;
+  font-size: 14px;
+  color: #889099;
+  line-height: 20px;
 }
 
 .copy {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .social {
-    width: 335px;
-    margin-top: 20px;
-    padding-bottom: 90px;
+  width: 335px;
+  margin-top: 20px;
+  padding-bottom: 90px;
 }
 
 .social {
-    display: flex;  
+  display: flex;
 }
-    
+
 .social li {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 #facebook {
-    margin-left: 0px !important;
+  margin-left: 0px !important;
 }
 
 .social-img {
-    height: 30px;
+  height: 30px;
 }
-/* footer (end) */
+
+.mobileSocial {
+  display: none;
+}
+/* Footer (End) */

@@ -91,7 +91,7 @@
                 </button>
 
                 <a href="#" class="logo mobileLogo">
-                    <img src="img/logo.svg" alt="logo">
+                    <img class="logotype" src="img/logo.svg" alt="logo">
                 </a>
                     
                 <span class="btns mobileBtn">
@@ -888,7 +888,7 @@
             </div>
 
             <!-- Creating A Banner Which Shows The Ways You Can Pay (For Mobile) !-->
-            <div class="payWayMobile">
+            <div class="payWayMobile unselectable">
                 <h5>
                     Ways to pay:
                 </h5>
@@ -943,13 +943,13 @@
             </div>
             <!-- Creating Buttons By Which You Can Learn Some Points!-->
             <div class="readmore">
-                <a href="#" class="priceButtons">
-                    <span class="more">
+                <a href="#" class="priceButtons unselectable">
+                    <span class="more"> 
                         How to pay anonymously
                     </span>
                     <img src="img/right-arrow.svg" alt="arrow">
                 </a>
-                <a href="#" class="priceButtons giftCard">
+                <a href="#" class="priceButtons giftCard unselectable">
                     <span class="more">
                        REDEEM GIFT CARD 
                     </span>
@@ -1103,37 +1103,13 @@
                 </div>
                 <!-- INFO BOX (END) -->
 
-
-
-
-                <!-- INFO BOX !-->
-                <div class="infoBox boxAbout">
-                    <h5 class="unselectable">
-                        About
-                    </h5>
-                    <p class="aboutFirst">
-                        Private Internet Access is the leading VPN Service provider specializing in secure, encrypted VPN tunnels which create several layers of privacy and security providing you safety on the internet. Our service is backed by multiple gateways worldwide with access in 28+ countries, 44+ regions.
-                    </p>
-                    <p class="copy">
-                        Map data provided by Google.
-                        <br class="unselectable">
-                        <br class="unselectable">
-                        PC Mag Editor’s Choice award image reprinted with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
-                        <br class="unselectable">
-                        <br class="unselectable">
-                        PC Mag quote reprinted from www.pcmag.com with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
-                        <br class="unselectable">
-                        <br class="unselectable">
-                        © London Trust Media, Inc. All Rights Reserved.
-                    </p>
-
-
-
+                <!-- SOCIAL LINKS FOR MOBILE (Begin) !-->
+                <div class="infoBox mobileSocial noMargin">
                     <h5 class="unselectable">    
                         Social
                     </h5>
-                    <ul class="infoLinks social">    
-                        <li id="facebook">    
+                    <ul class="infoLinks social">
+                        <li>
                             <a href="#">
                                 <img class="social-img unselectable" src="img/fb-logo.svg" alt="Facebook Logo">
                             </a>
@@ -1148,6 +1124,8 @@
                                 <img class="social-img unselectable" src="img/googleplus-logo.svg" alt="Google Plus Logo">
                             </a>
                         </li>
+                    </ul>
+                    <ul class="infoLinks social">
                         <li>
                             <a href="#">
                                 <img class="social-img unselectable" src="img/linkedin-logo.svg" alt="LinkedIn Logo">
@@ -1163,11 +1141,78 @@
                                 <img class="social-img unselectable" src="img/yt-logo.svg" alt="YouTube Logo">
                             </a>
                         </li>
-                    </ul>     
+                    </ul>
+                </div>
+                <!-- SOCIAL LINKS FOR MOBILE (End) !-->
+
+
+                <!-- INFO BOX !-->
+                <div class="boxAbout">
+                    <div class="aboutInfo">
+                        <h5 class="unselectable">
+                            About
+                        </h5>
+                        <p class="aboutFirst">
+                            Private Internet Access is the leading VPN Service provider specializing in secure, encrypted VPN tunnels which create several layers of privacy and security providing you safety on the internet. Our service is backed by multiple gateways worldwide with access in 28+ countries, 44+ regions.
+                        </p>
+                        <p class="copy">
+                            Map data provided by Google.
+                            <br class="unselectable">
+                            <br class="unselectable">
+                            PC Mag Editor’s Choice award image reprinted with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
+                            <br class="unselectable">
+                            <br class="unselectable">
+                            PC Mag quote reprinted from www.pcmag.com with permission. © 2012 Ziff Davis, Inc. All Rights Reserved.
+                            <br class="unselectable">
+                            <br class="unselectable">
+                            © London Trust Media, Inc. All Rights Reserved.
+                        </p>
+                    </div>
+                        
+                    <div class="footerLinks">
+                        <h5 class="unselectable">    
+                            Social
+                        </h5>
+                        <ul class="infoLinks social">    
+                            <li id="facebook">    
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/fb-logo.svg" alt="Facebook Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/tw-logo.svg" alt="Twitter Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/googleplus-logo.svg" alt="Google Plus Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/linkedin-logo.svg" alt="LinkedIn Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/git-logo.svg" alt="Git Logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="social-img unselectable" src="img/yt-logo.svg" alt="YouTube Logo">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>       
                 </div>
                 <!-- INFO BOX (END) -->
+
+
+                
             </div>
         </div>
     </footer>
 </body>
-</html>
+</html> 
