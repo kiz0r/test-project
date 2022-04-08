@@ -111,7 +111,7 @@ h6 {
     font-weight: 700;
 }
 
-#cross {
+.cross {
     height: 24px;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -131,7 +131,7 @@ h6 {
     border-bottom: 3px solid #4cb649;
 }
 
-#apps:hover {
+.apps:hover {
     cursor: pointer;
     text-decoration: underline 3px #4cb649;
 }
@@ -294,12 +294,12 @@ h6 {
     letter-spacing: 0.05em;
 }
 
-#vertical-slash {
+.vertical-slash {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#date {
+.date {
     color: #889099;
     text-transform: uppercase;
 }
@@ -317,7 +317,7 @@ h6 {
     color: #889099;
 }
 
-#quantity {
+.quantity {
     font-size: 14px;
     margin-left: 10px;
 }
@@ -527,7 +527,7 @@ h6 {
   margin-bottom: 20px;
 }
 
-#last {
+.last {
   margin-bottom: 32px;
 }
 
@@ -547,7 +547,7 @@ h6 {
 }
 
 /* Tag Cloud Design (Begin) */
-#cloud-caption {
+.cloudCaption {
   margin-top: 31px;
   margin-bottom: 17px;
 }
@@ -696,31 +696,28 @@ h6 {
   height: 80px;
 }
 
-#currency,
-#period {
+.currency,
+.period {
   color: #22252e;
   font-size: 24px;
   font-weight: 300;
 }
 
-#period {
+.period {
   margin-top: auto;
   margin-bottom: 15px;
+  margin-left: 8px;
 }
 
-#rate {
+.rate {
   margin: 0;
   font-weight: 300;
   font-size: 56px;
 }
 
-#currency {
+.currency {
   margin-top: 14px;
   margin-right: 7px;
-}
-
-#period {
-  margin-left: 8px;
 }
 
 .greyLine {
@@ -737,13 +734,13 @@ h6 {
   margin-bottom: 29px;
 }
 
-#red {
+.red {
   color: #f24458;
   text-decoration: line-through;
   margin-right: 11px;
 }
 
-#under-line {
+.underline {
   line-height: 25px;
 }
 
@@ -780,11 +777,13 @@ h6 {
   height: 100px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 .payWay h5 {
   margin-top: auto;
   margin-bottom: auto;
+  padding-top: 10px;
   margin-left: 45px;
   font-size: 18px;
   font-weight: 300;
@@ -796,14 +795,15 @@ h6 {
 }
 
 .paymentSystems li {
+  margin: 0;
   height: 80px;
-  margin-left: 20px;
+  margin-left: 25px;
   transition: all 0.3s ease;
 }
 
 .paymentSystems li:hover {
   box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
-  border-radius: 30px;
+  border-radius: 35px;
   transform: scale(1.2);
 }
 
@@ -835,27 +835,27 @@ h6 {
 
 .paySystems {
     width: 115%;
-  display: flex;
-  margin-top: 22px;
-  width: inherit;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: space-between;
+    display: flex;
+    margin-top: 22px;
+    width: inherit;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
 }
 
-#lineFirst {
+.lineFirst {
   margin-left: 25px;
 }
 
-#lineThird {
+.lineThird {
   margin-right: 25px;
 }
 
 .amazonMobile {
   width: 90px;
   margin-top: 18px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 /* Mobile (End) */
 
@@ -912,16 +912,17 @@ h6 {
 }
 
 .infoBox {
-  width: 20%;
+    max-width: 335px;
+    width: 20%;
 }
 
 .programLinks {
-  margin-bottom: 53px;
+    margin-bottom: 53px;
 }
 
 .infoLinks {
-  padding: 0;
-  list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 .infoLinks li {
@@ -951,8 +952,8 @@ h6 {
 }
 
 .boxAbout {
-  width: 40%;
-  min-width: 600px;
+  max-width: 600px;
+  width: 50%;
 }
 
 .boxAbout h5 {
@@ -997,5 +998,9 @@ h6 {
 
 .mobileSocial {
   display: none;
+}
+
+.hiddenOnDesktop {
+    display: none;
 }
 /* Footer (End) */
