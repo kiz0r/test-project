@@ -19,6 +19,19 @@
     .payWay {
         width: 100%;
     }
+    .infoWrapper {
+        flex-wrap: wrap;
+    }
+
+    .infoBox {
+        width: 33.33%;
+        margin-bottom: 20px;
+    }
+
+    .boxAbout {
+        min-width: auto;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
@@ -990,41 +1003,3 @@
         display: block;
     }
 }
-
-/* Adaptive for footer */
-
-/*  */
-@media screen and (max-width: 1200px) {
-  .infoWrapper {
-    flex-wrap: wrap;
-  }
-
-  .infoBox {
-    width: 33.33%;
-    margin-bottom: 20px;
-  }
-
-  .boxAbout {
-    min-width: auto;
-    width: 100%;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-/* 
-@media screen and (max-width: 575px) {
-  .infoBox {
-    width: 100%;
-  }
-
-  .social {
-    width: 100%;
-  }
-
-  .social-img {
-        height: 18px;
-    }
-} */
