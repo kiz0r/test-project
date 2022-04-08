@@ -1,5 +1,24 @@
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
-    
+    .rightSection {
+        width: 30%;
+    }
+    .leftSection {
+        width: 60%;
+    }
+    .line {
+        width: 100%;
+    }
+    .firstOffer,
+    .secondOffer,
+    .thirdOffer {
+        width: 30%;
+    }
+    .deal {
+        left: 78%;
+    }
+    .payWay {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
