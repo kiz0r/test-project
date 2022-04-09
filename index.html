@@ -17,9 +17,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/adaptive.css">
 
-    <!-- Connecting .js files !-->
-    <link rel="stylesheet" href="js/script.js">
-
     <!-- Page Title !-->
     <title>Private Internetaccess | Main Page</title>
 </head>
@@ -97,34 +94,34 @@
         <!-- Navigation Pannel For Mobile (Begin) !-->
         <div class="navMobile">
             <div class="navMobile-wrapper">
-                <button class="menu">
-                    <img src="img/menu.svg" alt="Menu" class="menuIcon">
-                </button>
-                <!--
-
-                <ul class="submenu">
-                    <li class="list-item list">
-                        <span>
+                <div class="menuButton">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                
+                <ul class="menuList">
+                    <li>
+                        <a href="#">
                             Why us
-                        </span>
+                        </a>
                     </li>
-                    <li class="list">
-                        <span class="apps">
-                            Vpn apps
-                        </span>
+                    <li>
+                        <a href="#">
+                            VPN apps
+                        </a>
                     </li>
-                    <li class="list-item list">
-                        <span>
-                            Support    
-                        </span>
+                    <li>
+                        <a href="#">
+                            Support
+                        </a>
                     </li>
-                    <li class="list-item list">
-                        <span>
+                    <li>
+                        <a href="#">
                             Resources
-                        </span>
+                        </a>
                     </li>
-                </ul>    
-                        !-->
+                </ul>  
 
                 <a href="#" class="logo mobileLogo">
                     <img class="logotype" src="img/logo.svg" alt="logo">
@@ -189,7 +186,6 @@
             </div>
         </div>
         <!-- Main Article (End) !-->
-
 
 
         <!-- Tag Banner (Begin) -->
@@ -880,7 +876,7 @@
                             </span>
                         </h6>
 
-                        <span class="signupBtn">
+                        <span class="signupBtn unselectable">
                            <a class="signUp" href="#">
                                 Sign Up
                             </a>
@@ -898,7 +894,7 @@
                     <ul class="paymentSystems">
                         <li>
                             <a href="#">
-                                <img class="system" src="img/visa-logo.svg" alt="Visa Logo">
+                                <img class="system visa" src="img/visa-logo.svg" alt="Visa Logo">
                             </a>
                         </li>
                         <li>
@@ -908,7 +904,7 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img class="system" src="img/amex-logo.svg" alt="American Express">  
+                                <img class="system amex" src="img/amex-logo.svg" alt="American Express">  
                             </a>
                         </li>
                         <li>
@@ -989,6 +985,7 @@
                     </div>
                 </div>   
             </div>
+
             <!-- Creating Buttons By Which You Can Learn Some Points!-->
             <div class="readmore">
                 <a href="#" class="priceButtons unselectable">
@@ -1265,5 +1262,7 @@
             </div>
         </div>
     </footer>
+    <!-- Connecting .js files !-->
+    <script src="js/script.js"></script>
 </body>
 </html> 

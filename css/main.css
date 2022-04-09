@@ -239,21 +239,68 @@ h6 {
 
 .mobileLogo,
 .mobileBtn,
-.menu {
+.menuButton {
     padding: 0;
     margin: 0;
 }
 
-.menu {
-    height: 16px;
-    background: none;
-    border: none;
+.menuButton {
+  margin-top: -7px !important;
+  cursor: pointer;
+}
+
+.menuList {
+  position: fixed;
+  flex-direction: column;
+  text-align: center;
+  right: -100%;
+  top: 5rem;
+  background: #fff;
+  padding: 0;
+  width: 90%;
+  list-style: none;
+  position: absolute;
+  transition: all .4s;
+}
+
+.menuList.active {
+  right: 0;
+}
+
+.menuList li a {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: .3s;
+  background: #22252E;
 }
 
 .mobileLogo {
     height: 24px;
     margin-left: 12px;
     margin-top: -5px;
+}
+
+.menuButton.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menuButton.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background: #F72615;
+}
+
+.menuButton.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background: #F72615;
 }
 
 .mobileBtn {
@@ -775,41 +822,48 @@ h6 {
   margin: auto;
   width: 80%;
   height: 100px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 17px;
 }
 
 .payWay h5 {
   margin-top: auto;
   margin-bottom: auto;
-  padding-top: 10px;
+  padding-top: 15px;
   margin-left: 45px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .paymentSystems {
   display: flex;
   list-style: none;
+  margin-top: 20px;
 }
 
 .paymentSystems li {
   margin: 0;
-  height: 80px;
-  margin-left: 25px;
+  height: 78px;
+  margin-left: 20px;
   transition: all 0.3s ease;
 }
 
 .paymentSystems li:hover {
   box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
-  border-radius: 35px;
+  border-radius: 40px;
   transform: scale(1.2);
 }
 
 .system {
-  height: 80px;
-  width: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 75px;
+    width: 75px;
+}
+
+.amex {
+    margin-top: 5px;
 }
 
 .mastercard {
@@ -826,11 +880,6 @@ h6 {
   height: 100px;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
-}
-
-.paymentWrapper table {
-  display: flex;
-  margin: 0;
 }
 
 .paySystems {
