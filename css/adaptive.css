@@ -293,7 +293,7 @@
         left: 5%;
     }
     .menuList li {
-        height: 30px;
+        height: 55px;
     }
     .getStarted-mobile {
         margin-top: -10px;
@@ -569,7 +569,7 @@
         top: 2.8rem;
     }
     .menuList li {
-        height: 30px;
+            height: 60px;
     }
 
     .getStarted-mobile {
