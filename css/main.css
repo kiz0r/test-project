@@ -253,7 +253,7 @@ h6 {
   position: fixed;
   flex-direction: column;
   text-align: center;
-  right: -100%;
+  left: -100%;
   top: 5rem;
   background: #fff;
   padding: 0;
@@ -264,7 +264,7 @@ h6 {
 }
 
 .menuList.active {
-  right: 0;
+  left: 10%;
 }
 
 .menuList li a {

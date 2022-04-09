@@ -289,6 +289,9 @@
         top: 2.8rem;
         width: 95%;
     }
+    .menuList.active {
+        left: 5%;
+    }
     .menuList li {
         height: 30px;
     }
@@ -562,11 +565,9 @@
         margin-top: 0;
         height: 30px;
     }
-
     .menuList {
         top: 2.8rem;
     }
-
     .menuList li {
         height: 30px;
     }
