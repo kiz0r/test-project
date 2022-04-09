@@ -73,9 +73,9 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    .first,
-    .second,
-    .third {
+    .firstArticle,
+    .secondArticle,
+    .thirdArticle {
         display: block;
         margin: auto;
     }
@@ -92,7 +92,7 @@
     .seeMore-mobile {
         margin-top: 60px;
     }
-    .scrollbarHeader {
+    .finder {
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -316,7 +316,7 @@
     .specialContainer {
         display: block;
     }
-    .scrollbarHeader-mobile {
+    .finderMobile {
         margin-top: 40px;
         margin-bottom: 40px;
         display: flex !important;
@@ -339,9 +339,9 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    .first,
-    .second,
-    .third {
+    .firstArticle,
+    .secondArticle,
+    .thirdArticle {
         display: block;
         margin: auto;
     }
@@ -365,7 +365,7 @@
         margin-left: auto;
         margin-right: auto;  
     }
-    .scrollbarHeader {
+    .finder {
         display: none;
     }
     .part {
@@ -586,7 +586,7 @@
     .specialContainer {
         display: block;
     }
-    .scrollbarHeader-mobile {
+    .finder-Mobile {
         margin-top: 40px;
         margin-bottom: 40px;
         display: flex !important;
@@ -609,9 +609,9 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    .first,
-    .second,
-    .third {
+    .firstArticle,
+    .secondArticle,
+    .thirdArticle {
         display: block;
         margin: auto;
     }
@@ -635,7 +635,7 @@
         margin-left: auto;
         margin-right: auto;  
     }
-    .scrollbarHeader {
+    .finder {
         display: none;
     }
     .scrollbarContent,
@@ -892,7 +892,7 @@
     .specialContainer {
         display: block;
     }
-    .scrollbarHeader-mobile {
+    .finderMobile {
         margin-top: 40px;
         margin-bottom: 40px;
         display: flex !important;
@@ -915,9 +915,9 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    .first,
-    .second,
-    .third {
+    .firstArticle,
+    .secondArticle,
+    .thirdArticle {
         display: block;
         margin: auto;
     }
@@ -939,7 +939,7 @@
         padding-left: 0;
         margin-left: 0;
     }
-    .scrollbarHeader {
+    .finder {
         display: none;
     }
     .scrollbarContent,

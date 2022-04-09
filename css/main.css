@@ -126,11 +126,6 @@ h6 {
     margin: 0 auto;
 }
 
-.list-item:hover {
-    cursor: pointer;
-    border-bottom: 3px solid #4cb649;
-}
-
 .apps:hover {
     cursor: pointer;
     text-decoration: underline 3px #4cb649;
@@ -160,17 +155,22 @@ h6 {
     height: 19px;
 }
 
-.list-item {
-    background: url("../img/pointer.svg") no-repeat center right;
-    margin-right: 36px;
-}
-
 .navDesktop ul li span {
     display: flex;
     margin-right: 24px;
 }
 
-#apps {
+.list-item {
+    background: url("../img/pointer.svg") no-repeat center right;
+    margin-right: 36px;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #4cb649;
+}
+
+.apps {
     margin-right: 36px;
 }
 
@@ -393,7 +393,7 @@ h6 {
   margin-bottom: 75px;
 }
 
-.scrollbarHeader-mobile {
+.finderMobile {
     display: none !important;
     width: 80%;
     margin-left: auto;
@@ -412,9 +412,9 @@ h6 {
   margin-bottom: 41px;
 }
 
-.first,
-.second,
-.third {
+.firstArticle,
+.secondArticle,
+.thirdArticle {
   display: flex;
   justify-content: space-between;
 }
@@ -478,7 +478,7 @@ h6 {
   padding-left: 40px;
 }
 
-.scrollbarHeader {
+.finder {
   display: flex;
   height: 60px;
   width: 340px;
@@ -493,19 +493,19 @@ h6 {
   height: 18px;
 }
 
-.scrollbarCaption {
+.rightSection-caption {
   padding-left: 20px;
   margin-top: 17px;
   font-size: 18px !important;
   line-height: 24px;
 }
 
-.scrollbarContent {
+.rightSectionContent {
   padding-left: auto;
   width: 340px;
 }
 
-.scrollbarContent h4 {
+.rightSectionContent h4 {
   font-size: 24px;
   font-weight: 300;
 }
@@ -522,7 +522,7 @@ h6 {
   text-align: center;
 }
 
-.scrollbarList li {
+.rightSection-list li {
   color: #4cb649;
   margin-bottom: 20px;
 }
@@ -531,7 +531,7 @@ h6 {
   margin-bottom: 32px;
 }
 
-.scrollbarList li span {
+.rightSection-list li span {
   color: #323642;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -881,8 +881,6 @@ h6 {
   margin-left: 15px;
 }
 /* Section.priceList (End) */
-
-
 
 
 /* Footer (Begin) */
