@@ -1165,6 +1165,10 @@
         padding-top: 20px;
         margin-bottom: 50px;
     }
+
+    .menuList li {
+        height: 70%;
+    }
     .getStarted-mobile {
         margin-top: -10px;
         width: 120px;
