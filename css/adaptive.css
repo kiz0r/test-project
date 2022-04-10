@@ -818,7 +818,7 @@
 }
 
 /* Works */
-@media screen and (max-width: 575px) and (min-width: 376px) {
+@media screen and (max-width: 575px) and (min-width: 416px) {
     /* Setting Size And Centre Alignment */
     .warning {
         width: 100%;
@@ -1099,7 +1099,7 @@
 }
 
 
-@media screen and (max-width: 375px) and (min-width: 0px) {
+@media screen and (max-width: 415px) and (min-width: 0px) {
     /* Setting Size And Centre Alignment */
     .warning {
         width: 100%;
@@ -1292,7 +1292,7 @@
     }
     .deal {
         top: -15px;
-        left: 175px;
+        left: 75%;
     }
     .payWay {
         display: none;
