@@ -111,7 +111,7 @@
         height: 600px;
         margin-left: 10%;
     }
-    #cloud-caption {
+    .cloud-caption {
         text-align: center;
     }
     .tagCloud {
@@ -338,10 +338,15 @@
         margin: auto;
     }
     .leftSection h3 {
-        margin-left: 30%;
+        text-align: center;
     }
     .rightSection {
         margin-top: 61px;
+        border: none;
+        padding-left: 0;
+        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;  
     }
     .galleryImg {
         width: 80%;
@@ -368,13 +373,6 @@
     .seeMore-mobile {
         margin-top: 60px;
     }
-    .rightSection {
-        border: none;
-        padding-left: 0;
-        margin-left: 0;
-        margin-left: auto;
-        margin-right: auto;  
-    }
     .finder {
         display: none;
     }
@@ -391,7 +389,7 @@
     .bigBrother {
         height: 600px;
     }
-    #cloud-caption {
+    .cloud-caption {
         text-align: center;
     }
     .tagCloud {
@@ -615,7 +613,7 @@
         margin: auto;
     }
     .leftSection h3 {
-        margin-left: 30%;
+        text-align: center;
     }
     .rightSection {
         margin-top: 61px;
@@ -663,7 +661,7 @@
     .bigBrother {
         height: 600px;
     }
-    #cloud-caption {
+    .cloud-caption {
         text-align: center;
     }
     .tagCloud {
@@ -820,7 +818,7 @@
 }
 
 /* Works */
-@media screen and (max-width: 575px) and (min-width: 0px) {
+@media screen and (max-width: 575px) and (min-width: 376px) {
     /* Setting Size And Centre Alignment */
     .warning {
         width: 100%;
@@ -924,7 +922,7 @@
         margin: auto;  
     }
     .leftSection h3 {
-        margin-left: 30%;
+        text-align: center;
     }
     .rightSection {
         margin-top: 61px;
@@ -1033,6 +1031,286 @@
      .paySystems {
         margin-right: 10%;
         margin-left: 10%;
+    }
+    .mastercard {
+        height: 40px !important;
+        margin-top: 0;
+    }
+    .system {
+        height: 30px;
+    }
+    .amazonPay {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .readmore {
+        display: block;
+        width: 100%;
+    }
+    .priceButtons {
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .more {
+        text-align: justify;
+        letter-spacing: 0.05em;
+        margin-left: 10px;
+    }
+    .giftCard {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footerWrapper {
+        display: block;
+    }
+    .infoWrapper {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+    .mobileSocial {
+        display: block;
+        margin: 0;
+    }
+    .infoLinks {
+
+        padding: 0;
+    }
+    .footerLinks {
+        display: none;
+    }
+    .infoBox {
+        width: 40%;
+    }
+    .noMargin ul {
+        width: 100%;
+        margin-left: -35px !important;
+        margin: 0;
+    }
+    .boxAbout {
+        width: 100%;
+    }
+    .hiddenOnDesktop {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 0px) {
+    /* Setting Size And Centre Alignment */
+    .warning {
+        width: 100%;
+        height: 90px;
+    }
+    .warningWrapper {
+        display: flex;
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        justify-content: space-between;
+    }
+
+    /* :hover  */
+    .firstOffer:hover,
+    .secondOffer:hover,
+    .thirdOffer:hover {
+        cursor: pointer;
+        box-shadow: 0 20px 40px rgb(0 0 0 / 30%);
+        transform: scale(1.05);
+        border: 4px solid #FF8D00;
+    }
+    /* :hover (end) */
+
+    .block1 {
+        width: 59%;
+        display: block;
+        margin-right: auto;
+    }
+    .block2 {
+        margin-left: auto;
+        width: 41%;
+        display: grid;
+    }
+    .ip {
+        margin-left: 0;
+    }
+    .item1 {
+        order: 2;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .item2 {
+        order: 1;
+        margin-bottom: -5px;
+        margin-left: auto;
+    }
+    .navDesktop {
+        display: none;
+    }
+    .logotype {
+        margin-left: 10px;
+        margin-top: 0;
+        height: 30px;
+        width: 170px ;
+    }
+    .navMobile {
+        display: flex;
+        width: 100%;
+        display: flex;
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+    .getStarted-mobile {
+        margin-top: -10px;
+        width: 120px;
+    }
+    .wrapper {
+        display: block;
+    }
+    .remote {
+        height: 300px;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .contentWrapper {
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    .contentWrapper h4 {
+        margin-bottom: 17px;
+    }
+    .tags {
+        display: none;
+    }
+    .specialContainer {
+        display: block;
+    }
+    .finderMobile {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex !important;
+        width: 80%;
+    }
+    .rightSection,
+    .leftSection {
+        width: 100%;
+        margin: auto;  
+    }
+    .leftSection h3 {
+        text-align: center;
+    }
+    .rightSection {
+        margin-top: 61px;
+        border: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .galleryImg {
+        height: 200px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .firstArticle,
+    .secondArticle,
+    .thirdArticle {
+        display: block;
+        margin: auto;
+    }
+    .galleryWrapper {
+        margin-left: 10px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .line {
+        width: 100%;
+    }
+    .forMobile {
+        display: none;
+    }
+    .seeMore-mobile {
+        margin-top: 60px;
+    }
+    .finder {
+        display: none;
+    }
+    .rightSectionContent,
+    .bigBrother,
+    .tagCloud {
+        width: 100%;
+    }
+    .priceList {
+        width: 100%;
+    }
+    .sale {
+        font-size: 32px;
+    }
+    .mobileBreaks {
+        display: block;
+    }
+    .offers {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .offerWrapper {
+        width: 209px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .firstOffer,
+    .secondOffer,
+    .thirdOffer {
+        transition: all 0.3s ease;
+        border-radius: 10px;
+        background: #fff;
+        width: 100%;
+        height: 340px;
+        border: 4px solid #fff;
+        margin-top: 20px !important;
+    }
+    .signUp {
+        color: #FF8D00;
+        border: 1px solid #FF8D00;
+    }
+    .signUp:hover {
+        color: #fff;
+        background: rgb(255,141,0);
+        background: linear-gradient(
+            0deg,
+            rgba(255, 141, 0, 1) 0%
+            rgba(255, 164, 0, 1) 100%
+        );
+    }
+    .deal {
+        top: -15px;
+        left: 175px;
+    }
+    .payWay {
+        display: none;
+    }
+    .payWayMobile {
+        display: block;
+        height: 225px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .payWayMobile h5 {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .paymentWrapper {
+        display: block;
     }
     .mastercard {
         height: 40px !important;

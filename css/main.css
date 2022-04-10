@@ -6,7 +6,7 @@ html {
     margin: 0 auto;
 }
 
-/* I You Want To Make Some Text Unselectable */
+/* If You Want To Make Some Text Unselectable */
 .unselectable {
     -webkit-touch-calloud: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
